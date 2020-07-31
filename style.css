@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas;
+}
+
+body {
+	height: 100vh;
+	background: #000;
+	position: relative;
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+svg {
+  height: 40vh;
+  width: 40vw;
+}
+
+h2 {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #fff;
+}
+
+#text {
+	position: absolute;
+	font-size: 2em;
+	color: #03e9f4;
+	top: 50%;
+	left: 50%;
+	display: block;
+	transform: translate(-50%, -50%);
+}
+
+@font-face {
+	font-family: Consolas;
+	src: url(consolas.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
